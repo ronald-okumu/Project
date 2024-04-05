@@ -1,0 +1,188 @@
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: large;
+}
+
+.user-info {
+  color: rgb(0, 0, 0); /* Change this to the color you prefer */
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20;
+}
+
+.icons-container {
+  display: flex;
+}
+
+.icons-container i {
+  margin-left: 10px; /* Add spacing between icons */
+}
+
+.user-profile img {
+  width: 40px; /* Adjust the size of the profile picture as needed */
+  border-radius: 50%; /* Make the profile picture round */
+  margin-right: 20px; /* Add some space between the picture and user info */
+}
+
+.user-info p {
+  margin: 0;
+  font-weight: normal;
+  margin-right: 90px;
+}
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+/* Style for the calendar column */
+
+#calendar {
+  background-color: #ffffff;
+  margin-left: 10px; /* Adjust spacing between columns */
+  width: 800px;
+  height: 600px;
+}
+
+/* DASHBOARD*/
+.container {
+  width: 50%;
+}
+#dashboard {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.menu li i {
+  margin-right: 30px; /* Adjust spacing between icon and text */
+  font-size: 20px; /* Adjust icon size */
+  color: #000000; /* Adjust icon color */
+}
+
+.menu li a {
+  text-decoration: none; /* Remove underline */
+  color: #000000; /* Set link color */
+}
+
+.menu li a:hover {
+  color: #FEC201;
+}
+
+
+
+#task-manager,
+.hidden {
+  display: none;
+}
+
+#notification {
+  flex-basis: 25%; /* Adjust the width of the other columns */
+  background-color: #ffffff;
+  margin-right: 10px; /* Adjust the spacing between sections */
+}
+
+.search-bar { 
+  position: relative;
+  display: inline-block; /* Ensure the container only takes the necessary width */
+}
+
+.search-bar input[type="text"] {
+  padding: 8px 30px 8px 8px; /* Adjust padding to accommodate the button */
+  border: 0px solid #ccc; /* Add a border for the input field */
+  border-radius: 5px; /* Add some rounded corners */
+  outline: none; /* Remove the default input outline */
+  width: 400px; /* Set a specific width for the input field */
+  background-color: #cfcfcf;
+}
+
+.search-bar .search-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 8px;
+  background: transparent; /* Remove background color */
+  border: none; /* Remove button border */
+  cursor: pointer;
+}
+
+
+
+.search-button:hover {
+  background-color: #ffb100;
+}
+
+.search-button:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+/* my tasks button styling */
+
+.menu-container button {
+  margin-right: 10px; /* Add right margin to create space between buttons */
+  border: none; /* Remove the border */
+  background-color: transparent; /* Remove the background color */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Add cursor pointer */
+  font-weight: bold; /* Change font weight to bold */
+  transition: color 0.3s ease; /* Add transition effect to text color */
+}
+
+.menu-container button:hover {
+  color: #FEC201; /* Change text color on hover */
+}
+
+.menu-container button:focus {
+  color: #FEC201; /* Change text color when button is focused */
+}
+
+#right-column {
+  flex: 1; /* Make the column grow to fill available space */
+  padding: 20px; /* Add padding */
+  background-color: #f0f0f0; /* Example background color */
+}
+
+
